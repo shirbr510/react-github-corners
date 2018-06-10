@@ -1,0 +1,31 @@
+{
+  "name": "react-github-corners",
+  "version": "0.1.0",
+  "description": "a react wrapper for the awesome \"github-corners\" ribbon by tholman https://github.com/tholman/github-corners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirbr510/react-github-corners.git"
+  },
+  "keywords": [
+    "github",
+    "corners",
+    "ribbon",
+    "react",
+    "fresh",
+    "fresher",
+    "tholman"
+  ],
+  "author": "Shir Brass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirbr510/react-github-corners/issues"
+  },
+  "homepage": "https://github.com/shirbr510/react-github-corners#readme",
+  "dependencies": {
+    "react": "^16.4.0"
+  }
+}
