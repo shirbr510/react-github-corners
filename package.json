@@ -2,9 +2,15 @@
   "name": "react-github-corners",
   "version": "0.1.0",
   "description": "a react wrapper for the awesome \"github-corners\" ribbon by tholman https://github.com/tholman/github-corners",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "style": "dist/styles.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prepublish":"npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,14 +32,21 @@
   },
   "homepage": "https://github.com/shirbr510/react-github-corners#readme",
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-proptypes": "^1.0.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "postcss-modules": "^1.1.0",
     "rollup": "^0.60.1",
     "rollup-plugin-babel": "^3.0.4",
     "rollup-plugin-commonjs": "^9.1.3",
-    "rollup-plugin-node-resolve": "^3.3.0"
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.6.2"
   }
 }

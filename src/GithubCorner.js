@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./github-corner.css"
+import cnBinder from "classNames/bind";
+import from "./github-corner.css";
 
 class GithubCorner extends Component {
     render() {
